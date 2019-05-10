@@ -246,3 +246,35 @@ footer p:nth-of-type(1) {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
+/* MOBILE */
+
+.mobile-menu {
+    display: none;
+    text-align: center
+}
+
+
+/* MEDIA SCREEN */
+
+@media screen and (max-width: 780px) {
+    body {
+        padding: 0;
+    }
+    footer {
+        position: relative;
+    }
+    .downloadblock {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .active:after {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+}
